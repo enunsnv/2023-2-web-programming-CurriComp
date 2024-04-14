@@ -1,0 +1,228 @@
+
+/* news css */
+
+
+/* content */
+#news-container {
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  width: 1040px;
+  top: 310px; 
+  left: 300px;
+
+}
+
+
+.club-content, .edu-content, .contest-content {
+  margin: 5px;
+  border: 2px #394867 solid;
+  border-radius: 10px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+#news-container img {
+  margin: 15px ;
+  border-radius: 8px;
+  width: 214px;
+  height: 212px;
+  border: 1px black solid;
+}
+
+#news-container p {
+  margin: 0px 20px 30px 20px;
+  font-size: 20px;
+  padding: 5px;
+  height: 40px;
+
+}
+
+.d-day {
+  border: 2px #E1E5E9 solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+  position: relative;
+  right: -170px;
+  bottom: 15px;
+}
+
+
+/* nav css */
+* {
+  font-family: "IBM Plex Sans KR";
+  
+}
+
+body {
+  width: fit-content;
+  height: fit-content;
+
+}
+
+#nav-container {
+  display: flex;
+  height: 130px;
+}
+
+#logo {
+  color: #13284E;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 1000;
+  line-height: 35px; 
+  margin: 25px 60px;
+  vertical-align:top;
+  height: 80px;
+}
+
+#nav {
+  text-align: left;
+  display:flex;
+  vertical-align: top;
+}
+
+#nav ul {
+  display: flex;
+  list-style: none;
+  height: 100px
+}
+
+
+#nav ul li {
+  display: flex;
+  font-size: 25px;
+  margin: 40px;
+  font-weight: 540;
+  align-items: center; 
+  white-space: nowrap;
+}
+
+
+#nav-icon-container {
+  display: flex;
+  width: fit-content;
+  height: 90px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+
+.nav-icon {
+  width: 70px;
+  margin: 10px;
+}
+
+
+
+hr {
+  height: 5px;
+  width: 1410px;
+  border: none;
+  background-color: #9BA4B5;
+  margin-bottom: 25px;
+}
+
+/*상단메뉴-링크클릭설정*/
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+a:visited{
+  color:black;
+}
+
+a:hover{
+  color:#324465;
+  font-weight : 1000;
+}
+
+a:active{
+  color:#324465;
+  font-weight : 1000;
+}
+
+.curri{ /*네모박스*/
+  width:1300px;
+  height:900px;
+  background-color:#E1E5E9;
+  border:3px solid #9BA4B5;
+  border-radius:20px;
+  margin: 10px 0 0 270px;
+}
+
+.vertical-nav{
+  float: left;
+  width: 200px;
+  height: 100%;
+  color: black;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.vertical-nav p {
+  font-weight: bold;
+  font-size:30px;
+  margin-left: 10px;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.group-title {
+  font-size: 25px;
+  padding: 10px;
+
+}
+
+.vnav-group {
+  margin-bottom: 40px;
+
+}
+
+.vnav-content {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.vertical-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.vertical-nav a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.vertical-nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px; /* 선의 너비 조절 */
+  height: 100%;
+  background-color: #9BA4B5; /* 선의 색상 설정 */
+  margin-left: -5px; /* 조절된 여백 값 */
+}
+
+.vertical-nav ul li.grade{
+  font-size:20px;
+  padding-left:19.5px;
+}
+
+
+#vertical-line {
+  border-left: 2px solid black; 
+  height: 800px;
+  position: absolute;
+  top: 340px;
+  left: 230px;
+}

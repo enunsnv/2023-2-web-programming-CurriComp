@@ -1,0 +1,62 @@
+* {
+  font-family: "IBM Plex Sans KR";
+  
+}
+
+
+#login-box {
+  background-color: #EBEDF0;
+  margin: 0 100px;
+  padding: 100px;
+  height: fit-content;
+  width: 700px;
+}
+
+
+#title {
+  font-size: 55px;
+
+  color: #13284E;
+}
+
+#sub-title {
+  font-size: 35px;
+  font-weight: 1000;
+  color: #13284E;
+
+}
+
+.form-box {
+  padding: 15px;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  border-color: #13284E;
+  width: 400px;
+  margin: 20px;
+}
+
+ #pw-box {
+  margin-left: 10px;
+}
+
+#login-button {
+  border-radius: 20px;
+  border: none;
+  background-color: #13284E4D;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+#join-button {
+  border: none;
+  text-decoration: underline;
+  color: grey;
+}
+
+#join-button:hover {
+  color: black;
+}

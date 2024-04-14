@@ -1,0 +1,214 @@
+table {
+	width: 1300px;
+	border: 3px solid #9BA4B5;
+	border-radius: 10px;
+	margin: 40px;
+}
+
+#titleRead {
+	padding: 20px 50px;
+	font-size: 50px;
+	
+}
+
+caption {
+	position: relative;
+	top: 30px;
+}
+
+.winfo td {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.write1 {
+	background-color: #324465;
+  	color: white;
+ 	border: none;
+  	border-radius: 25px;
+  	width: 50px;
+  	padding: 5px;
+}
+
+
+#commentBtn {
+	background-color: #324465;
+  	color: white;
+ 	border: none;
+  	border-radius: 20px;
+  	width: 150px;
+  	height: 80px;
+  	padding: 10px;
+  	font-size: 25px;
+}
+
+#content {
+	padding: 20px 50px;
+	font-size: 30px;
+}
+
+
+.userBtn {
+	background-color: #FFF8F8;
+ 	border: 2px solid #9BA4B5;
+  	border-radius: 15px;
+  	font-size: 20px;
+  	padding: 5px 30px;
+	margin: 10px;
+	
+}
+
+#commentWriteBar {
+	position: relative;	
+	top: 30px;
+	padding: 3px 30px;
+	font-size: 25px;
+	border: none;
+	
+}
+
+#commentBar {
+	width: 700px;
+	height: 15px;
+	border: 3px solid #9BA4B5;
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 25px;
+	
+}
+
+
+.commentBoard {
+	margin: 100px;
+	width: 80%;
+	border: none;
+}
+
+#nick {
+	font-size: 20px;
+	width: 70px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	background-color: #F5F7FA;
+	border-radius: 10px;
+}
+
+
+#date {
+	font-size: 15px;
+	width: 70px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+.commentTr3 {
+	font-size: 25px;
+	 white-space: pre-wrap;
+	width:500px;
+}
+
+
+
+
+
+#commentBarName1 {
+	font-size: 30px;
+}
+
+
+
+/* nav css */
+
+* {
+  font-family: "IBM Plex Sans KR";
+  
+}
+
+body {
+  width: fit-content;
+  height: fit-content;
+}
+
+#nav-container {
+  display: flex;
+  height: 130px;
+}
+
+#logo {
+  color: #13284E;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 1000;
+  line-height: 35px; 
+  margin: 25px 60px;
+  vertical-align:top;
+  height: 80px;
+}
+
+#nav {
+  text-align: left;
+  display:flex;
+  vertical-align: top;
+}
+
+#nav ul {
+  display: flex;
+  list-style: none;
+  height: 100px
+}
+
+
+#nav ul li {
+  display: flex;
+  font-size: 25px;
+  margin: 40px;
+  font-weight: 540;
+  align-items: center; 
+  white-space: nowrap;
+}
+
+#nav-icon-container {
+  display: flex;
+  width: fit-content;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+
+.nav-icon {
+  width: 70px;
+  margin: 10px;
+}
+
+hr {
+  height: 5px;
+  width: 1410px;
+  border: none;
+  background-color: #9BA4B5;
+  margin-bottom: 25px;
+}
+
+/*상단메뉴-링크클릭설정*/
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+a:visited{
+  color:black;
+}
+
+a:hover{
+  color:#324465;
+  font-weight : 1000;
+}
+
+a:active{
+  color:#324465;
+  font-weight : 1000;
+}
